@@ -9,5 +9,4 @@ For LSP on vscode:
 cmake -S . -B build -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 cmake --build build
 ```
-
 This will create a compile_commands under build for clangd.
